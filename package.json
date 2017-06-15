@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "A simple adapter for mithril and redux",
   "main": "lib/midux.js",
+  "module": "src/midux.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "clean": "rimraf lib",
